@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bc_blurr"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="  Siddharth Birla \n  Sports Co. \n  248 \n  9967340994"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+
+
+            android:background="@drawable/back2"
+
+            android:layout_alignBottom="@+id/imageview1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageview1"
+            android:layout_toEndOf="@+id/imageview1" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/birla3"
+            android:id="@+id/imageview1"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text=" Achyut Keshav \n  Sports secy. \n  185\n  7045570815"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+id/textView1"
+            android:layout_toRightOf="@+id/imageview4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/achyut_chacha"
+            android:id="@+id/imageview4"
+
+            android:layout_above="@+id/imageview3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:text="  Badal Priyadarshi \n  Sports secy. \n  179 \n  8828495030"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+
+            android:layout_alignBottom="@+id/imageview3"
+            android:layout_toRightOf="@+id/imageview3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/badal"
+            android:id="@+id/imageview3"
+
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/gaurav"
+            android:id="@+id/imageview5"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="  Gaurav Mandia \n Sports Secy. \n 87 \n  7045800258"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview5"
+            android:layout_toRightOf="@+id/imageview5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/kamleshm"
+            android:id="@+id/imageview6"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView5"
+            android:layout_toStartOf="@+id/textView5" />
+        <TextView
+            android:text="  Kamlesh Meena \n Sports Secy. \n175 \n  9461288465"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview6"
+            android:layout_toRightOf="@+id/imageview6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/rohan"
+            android:id="@+id/imageview7"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView6"
+            android:layout_toStartOf="@+id/textView6" />
+        <TextView
+            android:text="  Rohan Pathak \n Sports Secy. \n 5 \n  9096238458"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview7"
+            android:layout_toRightOf="@+id/imageview7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/kaustubh"
+            android:id="@+id/imageview2"
+
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/imageview3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="  Kaustubh Vyas \n  Sports secy. \n 28 \n  7507696464"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_above="@+id/imageview5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="19dp"
+            android:layout_toRightOf="@+id/imageview2"
+            android:layout_toEndOf="@+id/imageview2" />
+    </RelativeLayout>
+    </ScrollView>

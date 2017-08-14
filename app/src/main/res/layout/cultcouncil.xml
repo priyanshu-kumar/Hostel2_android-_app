@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+    android:background="@mipmap/bc_blurr"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="  Ajinkya Shisode \n  Cult Co. \n  77 \n  7276236756"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+
+            android:layout_alignBottom="@+id/imageview1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageview1"
+            android:layout_toEndOf="@+id/imageview1"
+            android:layout_marginRight="2dp"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/sysodia"
+            android:id="@+id/imageview1"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp"
+            />
+
+        <TextView
+            android:text=" Keshav Arora \n  Social Secretary\n  13\n  9004266356"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+id/textView1"
+            android:layout_toRightOf="@+id/imageview4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/shoham"
+            android:id="@+id/imageview3"
+
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:text="  Shoham Teberiwal \n  Social Secretary\n  107 \n  9756820663"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:textIsSelectable="true"
+            android:layout_alignBottom="@+id/imageview3"
+            android:layout_toRightOf="@+id/imageview3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="  Krish Mehta \n Design Secy. \n 83 \n  9099028897"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview2"
+            android:layout_toRightOf="@+id/imageview2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/krish"
+            android:id="@+id/imageview2"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/saugata2"
+            android:id="@+id/imageview5"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="  Saugata Haldar \n Film N Media Secy. \n 15 \n  9038923248"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            android:textIsSelectable="true"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview5"
+            android:layout_toRightOf="@+id/imageview5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/kagri"
+            android:id="@+id/imageview6"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+             />
+        <TextView
+            android:text="  Anmol Kagrecha \n Spearking Arts Secy. \n21 \n  9783709167"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview6"
+            android:layout_toRightOf="@+id/imageview6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/bhujang"
+        android:id="@+id/imageview7"
+            android:layout_marginLeft="2dp"
+
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageview6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/textView6"
+        android:layout_toStartOf="@+id/textView6" />
+        <TextView
+            android:text="  Amit Bhujang \n Dance Secy. \n 78 \n  8828291996"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview7"
+            android:layout_toRightOf="@+id/imageview7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ash"
+            android:id="@+id/imageview8"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView7"
+            android:layout_toStartOf="@+id/textView7" />
+        <TextView
+            android:text="  Ashwini Kumar Singh \n Dramatics Secy. \n 45 \n  9987572870"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="20dp"
+            android:textIsSelectable="true"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview8"
+            android:layout_toRightOf="@+id/imageview8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/kauchik"
+            android:id="@+id/imageview9"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView8"
+            android:layout_toStartOf="@+id/textView8" />
+        <TextView
+            android:text="  Kaushik VM \n Fine Arts Secy. \n 89 \n  9004136737"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview9"
+            android:layout_toRightOf="@+id/imageview9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/dikshant"
+            android:id="@+id/imageview10"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView9"
+            android:layout_toStartOf="@+id/textView9" />
+        <TextView
+            android:text="  Dikshant Patidar \n Music Secy. \n 226 \n  9479585940"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview10"
+            android:layout_toRightOf="@+id/imageview10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/niranjan"
+            android:id="@+id/imageview11"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView10"
+            android:layout_toStartOf="@+id/textView10" />
+        <TextView
+            android:text="  Niranjan Suthar \n Music Secy. \n 16 \n  8239869533"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignBottom="@+id/imageview11"
+            android:layout_toRightOf="@+id/imageview11"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/nicho"
+            android:id="@+id/imageview12"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/imageview11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView11"
+            android:layout_toStartOf="@+id/textView11" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/arora2"
+            android:id="@+id/imageview4"
+            android:layout_marginTop="12dp"
+
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/imageview1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="  Nicho Priyatham \n Literature Secy. \n 76 \n  8828158799"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:id="@+id/textView12"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageview12"
+            android:layout_toEndOf="@+id/imageview12" />
+
+
+    </RelativeLayout>
+</ScrollView>
+

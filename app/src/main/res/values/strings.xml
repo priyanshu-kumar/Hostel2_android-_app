@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Wild Ones</string>
+    <string name="maint">Maintenance</string>
+
+
+    <string name="council">Council</string>
+    <string name="aboutus">About App</string>
+    <string name="mess">Mess Details</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

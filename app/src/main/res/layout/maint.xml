@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bc_blurr">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="top"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:fontFamily="sans-serif-condensed"
+        android:text="\n We work to make your life comfortable in 'The Wild Ones'.\n"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="\n  We have various facilities in our Hostel Lounge. \n  The place where inmates can have relaxation after busy Academic schedule. We have TT table, Carrom Boards, TV with Tata Sky HD connection, a big size mirror for dance  practice, News Papers and Magazines.\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView2"
+        android:background="@drawable/back"
+        android:textIsSelectable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:text="  Important Contacts   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView10"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="\n
+Electrical Complaints\n
+phone 2182 (02225762182)\n
+
+Plumbing Complaints\n
+7995 (02225767995) (office hours)\n
+2184 (02225762184) [10 pm - 6 am]\n
+
+
+
+PHO\n
+7056 (02225767056)\n
+
+24/7 Quick Response Team(in case of emergency)\n
+9833339979, 9167398598\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView9"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="true"
+        />
+    <TextView
+        android:text="   General Contacts   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView11"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="\nHostels\n
+ 26__(hostel number 01-14)\n
+Ambulance\n
+1101\n
+Main Gate\n
+1123\n
+YP Gate\n
+1121\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:background="@drawable/back"
+
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:textIsSelectable="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="   Washing and Ironing room   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView6"
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:text="     \n The room behind mess area where we can give the clothes to washerman for washing, drying and ironing or wash the clothes by ourselves. Also we have washing machines and dryers at second floor of each wing.\n
+"       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:background="@drawable/back"
+        android:textIsSelectable="true"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+      />
+
+    <TextView
+        android:text="   TV Room    "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView7"
+        android:background="@drawable/back"
+        android:textIsSelectable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="                                            \n The stairs near the canteen goes to TV room. We have a big screen TV with Tata Sky HD connection. We have Home Theater System connected to the TV. We also have comfortable sofas, chairs and cots inside the room.\n
+"       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:background="@drawable/back"
+        android:textIsSelectable="true"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:text="     Extra    "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textIsSelectable="true"
+        android:id="@+id/textView8"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text=" \n
+1.We have vacuum cleaner which can be issued on I-card.\n
+2.There are 4 Hammocks in our hostel, two at Cricket field and two at Volleyball/Badminton court field.\n
+3.We have cycle air compressor near to security guard which is in good condition.\n
+4.We have canteen, stationary and Xerox shop inside the hostel.\n
+5.Hostel room no. 2 and 3 are available for guests which can be booked on the Hostel Guest Room Booking link.\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textIsSelectable="true"
+        android:background="@drawable/back"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+</LinearLayout>
+</ScrollView>

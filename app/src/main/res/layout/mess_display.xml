@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@mipmap/mess_bc22"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="   BREAKFAST   "
+    android:textSize="24dp"
+    android:id="@+id/brtitle"
+    android:background="@drawable/back2"
+
+    android:textColor="@color/cardview_light_background"
+    />
+    <TextView
+        android:id="@+id/breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mera naam chin chin chu"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textAlignment="center"
+                
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/brtitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <View
+        android:layout_below="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/brline"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   LUNCH   "
+        android:textSize="24dp"
+        android:id="@+id/lutitle"
+        android:background="@drawable/back2"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/brline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lunch"
+        android:text="Mera naam chin chasdhaskjdhakin chu"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textAlignment="center"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/lutitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <View
+        android:layout_below="@+id/lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/luline"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   TIFFIN   "
+        android:textSize="24dp"
+        android:id="@+id/tititle"
+        android:background="@drawable/back2"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/luline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiffin"
+        android:layout_marginTop="10dp"
+        android:text="Mera naam chin chin chu raat chandani main aur tu"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textAlignment="center"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/tititle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:layout_below="@+id/tiffin"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/tiline"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   DINNER   "
+        android:textSize="24dp"
+        android:id="@+id/dititle"
+        android:background="@drawable/back2"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/tiline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dinner"
+        android:text="hello moster how do ou do"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textAlignment="center"
+
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/tiffin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+    <View
+        android:layout_below="@+id/dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/diline"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
+</ScrollView>

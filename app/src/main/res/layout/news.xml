@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bc_bl_blu">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  mera lawng acha0"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_light_background"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/block0"
+        />
+    <View
+    android:layout_below="@+id/block0"
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:id="@+id/line0"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block1"
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha1"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/block0"
+        android:layout_alignParentLeft="true"
+        android:textIsSelectable="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+
+        />
+    <View
+    android:layout_below="@+id/block1"
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:id="@+id/line1"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:id="@+id/block2"
+        android:text="  mera lawng acha2"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/block1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        />
+    <View
+        android:layout_below="@+id/block2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block3"
+        android:textSize="20dp"
+        android:textIsSelectable="true"
+        android:textStyle="italic"
+
+        android:text="  mera lawng acha3"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/block2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <View
+        android:layout_below="@+id/block3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block4"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+
+        android:text="  mera lawng acha4"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/block3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <View
+        android:layout_below="@+id/block4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line4"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block5"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha5"
+        android:layout_below="@+id/block4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line5"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block6"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha6"
+        android:layout_below="@+id/block5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line6"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block7"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha7"
+        android:layout_below="@+id/block6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line7"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block8"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha8"
+        android:layout_below="@+id/block7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block8"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line8"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block9"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha9"
+        android:layout_below="@+id/block8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block9"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line9"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block10"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_light_background"
+        android:text="  mera lawng acha10"
+        android:layout_below="@+id/block9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+
+        />
+    <View
+        android:layout_below="@+id/block10"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/line10"
+        />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gc_sports_button"
+            android:text="Sports GC Standings"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gc_sports_WebView"
+            android:layout_below="@+id/gc_sports_button"
+            />
+
+        <View
+            android:layout_below="@+id/gc_sports_WebView"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tiline"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gc_cult_button"
+
+            android:layout_below="@+id/tiline"
+            android:layout_centerHorizontal="true"
+            android:text="cult GC Standings"
+            />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gc_cult_WebView"
+            android:layout_below="@+id/gc_cult_button"
+            />
+
+
+        <View
+            android:layout_below="@+id/gc_cult_WebView"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="20dp"
+            android:id="@+id/culine"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gc_tech_button"
+            android:layout_below="@+id/culine"
+            android:layout_alignLeft="@+id/gc_cult_button"
+            android:layout_alignStart="@+id/gc_cult_button"
+            android:text="TEch GC Standings"
+            />
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gc_tech_WebView"
+            android:layout_below="@+id/gc_tech_button"/>
+
+    </RelativeLayout>
+</ScrollView>

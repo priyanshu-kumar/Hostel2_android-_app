@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.my_app.priyanshu.hostel_2.MainActivity"
+    tools:showIn="@layout/activity_main"
+
+        >
+
+    <TabHost
+        android:id="@+id/tab_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--change itfrom here to bottom-->
+
+                <LinearLayout
+                    android:id="@+id/news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/bc_blurr"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/back_white"
+                        android:text="'One of the most spirited hostels of the campus, you'll never find the enthusiasm go down. We take pride in being The Wild Ones and every one in the hostel contributes in making the hostel better place to live in and making it successful in all aspects.'"
+                        android:textStyle="bold|italic"
+                        android:layout_marginTop="23dp"
+                        android:textSize="17dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignLeft="@+id/gc_tally"
+                        android:layout_alignStart="@+id/gc_tally"
+                        android:id="@+id/textView" />
+
+                    <Button
+                        android:id="@+id/news_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="    What's New"
+                        android:drawableLeft="@mipmap/news"
+                        android:textColor="@android:color/black"
+                        android:textSize="25dp"
+                        android:textAllCaps="false"
+
+                        android:layout_below="@+id/textView"
+
+                        android:layout_marginTop="18dp" />
+
+                    <Button
+                        android:id="@+id/gallery_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/gc_tally"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="18dp"
+                        android:drawableRight="@mipmap/sports"
+                        android:text="Gallery Sports  "
+                        android:textAllCaps="false"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/gc_tally"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text=" GC Standings"
+                        android:textAllCaps="false"
+                        android:drawableLeft="@mipmap/trophy"
+                        android:textColor="@android:color/black"
+                        android:textSize="25dp"
+                        android:layout_below="@+id/news_button"
+                        android:layout_toLeftOf="@+id/gallery_button"
+                        android:layout_toStartOf="@+id/gallery_button"
+                        android:layout_marginTop="18dp" />
+
+                    <Button
+                        android:id="@+id/gallery_cult_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Gallery Cultural "
+                        android:textAllCaps="false"
+                        android:drawableRight="@mipmap/cult"
+                        android:textColor="@android:color/black"
+                        android:textSize="25dp"
+                        android:layout_below="@+id/gallery_button"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="18dp" />
+                    </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <!--till here it eill go to bottom-->
+                <LinearLayout
+                    android:id="@+id/mess_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/mess_bc2"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/layout_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/sun"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/back4"
+                                android:text="              Sunday              "
+                                android:textAlignment="center"
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/mon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="               Monday             "
+                                android:textAlignment="center"
+
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+
+                            <Button
+                                android:id="@+id/tue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="              Tuesday             "
+                                android:textAlignment="center"
+
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/wed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="           Wednesday          "
+                                android:textAlignment="center"
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/thu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="             Thursday            "
+                                android:textAlignment="center"
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/fri"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="               Friday             "
+                                android:textAlignment="center"
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/sat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/back4"
+                                android:text="            Saturday           "
+                                android:textAlignment="center"
+                                android:textColor="@color/cardview_light_background"
+                                android:textSize="25dp" />
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

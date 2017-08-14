@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mess_bc22">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:fontFamily="sans-serif-condensed"
+            android:text=" MESS TIMINGS"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/messtime"
+            android:textStyle="bold"
+            />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/messtiming"
+    />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:fontFamily="sans-serif-condensed"
+            android:text="All About Mess "
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Hostel 2 mess is no more a Government mess. It was first privatised in 2014-15. Since then, quality and variety of mess food has been increased significantly. \n As of now, Hostel 2 mess is one of the best in Institute. In H2 Mess,we try to be environment friendly and try our best not to compromise with health of the students and at the same time ensuring tasty food. \nA decent amount of fruits and fruits juices are part of our regular mess menu. Jain food and boiled food is also provided in Lunch and Dinner.
+
+Mess Menu is updated every week with new dishes, items, drinks, desserts, etc on a weekly basis to reduce the monotonicity in taste. Proper focus is given to a balanced diet and budget while updating the menu. Review from inmates are regularly taken through Mess CoMS and H2Forum and Mess Council strives hard to implement them.
+\nWe have given present mess contract to Leave n Loaf. The current price is Rs 128/ day."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/textView3"
+            android:textSize="15dp"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Rebate Policy "
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Full rebate can be availed for maximum 36 days in a semester."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="15dp"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="Minimum of 2 days rebate can be taken 4 times a semester and after that minimum number of days for taking rebate is 3."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="15dp"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="Maximum of 9 days rebate can be availed in a month."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="15dp"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="Must apply for rebate at least a day before, else it will not be considered."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="15dp"
+            android:textIsSelectable="true"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

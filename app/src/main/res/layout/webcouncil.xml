@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bc_blurr"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="  Yashpal Singh Brar \n  System Administrator \n  285 \n  9167842039"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+
+            android:layout_alignBottom="@+id/imageview1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageview1"
+            android:layout_toEndOf="@+id/imageview1" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/yashpal"
+            android:id="@+id/imageview1"
+
+            android:layout_marginTop="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text=" Kumar Priyanshu \n  Web secretary \n  185 \n  7045570829"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+id/textView1"
+            android:layout_toRightOf="@+id/imageview4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/webcouncil1"
+            android:id="@+id/imageview4"
+            android:layout_below="@id/imageview1"
+            android:layout_marginTop="10dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:text="  Pranay Raut \n  Wec secretary \n  114 \n  9168981869"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:gravity="right"
+            android:textIsSelectable="true"
+            android:background="@drawable/back2"
+
+            android:layout_alignBottom="@+id/imageview3"
+            android:layout_toRightOf="@+id/imageview3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/pranayweb"
+            android:id="@+id/imageview3"
+
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
